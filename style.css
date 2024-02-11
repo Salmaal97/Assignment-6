@@ -1,0 +1,51 @@
+.logo {
+    float: left;
+}
+.logo-dot {
+    color: #ff7b00;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333; 
+}
+.sign-buttons button {
+    background-color: #ff7b00; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.sign-buttons button:hover {
+    background-color: #ff9500; 
+}
+
+
+.content-section {
+    float: left;
+    margin: 50px;
+}
+
+
+.image-section {
+    float: right;
+    margin-top: 50px; 
+}
